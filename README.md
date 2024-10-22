@@ -11,9 +11,7 @@ The RSA Factoring project is a web application that utilizes Pollard's Rho Algor
 - [Installation](#installation)
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
-
+- 
 ## Features
 
 - Efficient factorization of large numbers using Pollard's Rho Algorithm.
@@ -46,12 +44,13 @@ bash
 python app.py
 
 
-Usage
+**Usage**
 Open the web application in your browser.
 Enter the numbers you wish to factor, one per line, in the provided text area.
 Click the "Factor Numbers" button.
 The results will be displayed in a table format below the form, showing the original number and its factors.
-Technologies Used
+
+**Technologies Used**
 Frontend: HTML, CSS, JavaScript
 Backend: Python, Flask
 Algorithm: Pollard's Rho Algorithm for number factorization
