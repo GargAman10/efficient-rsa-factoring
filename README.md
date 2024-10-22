@@ -51,6 +51,6 @@ Click the "Factor Numbers" button.
 The results will be displayed in a table format below the form, showing the original number and its factors.
 
 **Technologies Used**
-Frontend: HTML, CSS, JavaScript
+Frontend: HTML, CSS
 Backend: Python, Flask
 Algorithm: Pollard's Rho Algorithm for number factorization
