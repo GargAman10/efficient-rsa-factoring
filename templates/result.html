@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Factorization Results</title>
+</head>
+<body>
+    <h1>Factorization Results</h1>
+    <table>
+        <tr>
+            <th>Number</th>
+            <th>Pollard's Rho Factor</th>
+            <th>RSA Factor p</th>
+            <th>RSA Factor q</th>
+        </tr>
+        {% for n, p_rho, p_rsa, q_rsa in results %}
+        <tr>
+            <td>{{ n }}</td>
+            <td>{{ p_rho }}</td>
+            <td>{{ p_rsa }}</td>
+            <td>{{ q_rsa }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    <a href="/">Try again</a>
+</body>
+</html>
